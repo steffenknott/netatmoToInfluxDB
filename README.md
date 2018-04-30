@@ -14,7 +14,7 @@ This simple tool pushes your netatmo measurements into an InfluxDB instance.
 
 ## What the script does
 
-The scripts loads all available stations from the netatmo API. All available sensor values are written to InfluxDB. Values are tagged with "station" or "module" as tag key and the mac address of the station or module as tag value.
+The scripts loads all available stations from the netatmo API. All latest sensor values are written to InfluxDB. Values are tagged with "station" or "module" as tag key and the mac address of the station or module as tag value.
 
 ## Run the script
 
