@@ -1,6 +1,12 @@
 # netatmoToInfluxDB
 This simple tool pushes your netatmo measurements into an InfluxDB instance.
 
+## Requirements
+
+- Python 3 (may work with Python 2 - didn't test it)
+- netatmo API Access - you need to register an App on the netatmo website
+- lnetatmo and influxdb packages
+
 ## Setup
 
 - Place .influxdb.credentials and .netatmo.credentials in your **home directory**. Set proper values.
