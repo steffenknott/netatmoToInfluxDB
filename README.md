@@ -1,11 +1,11 @@
 # netatmoToInfluxDB
-This simple tool pushes your netatmo measurements into an InfluxDB instance.
+This simple tool pushes your netatmo measurements into an [InfluxDB](https://github.com/influxdata/influxdb) instance. I use [Grafana](https://grafana.com/)  to visualize them.
 
 ## Requirements
 
 - Python 3 (may work with Python 2 - didn't test it)
 - netatmo API Access - you need to register an App on the netatmo website
-- lnetatmo and influxdb packages
+- [lnetatmo](https://github.com/philippelt/netatmo-api-python) and [influxdb](https://github.com/influxdata/influxdb-python) packages
 
 ## Setup
 
