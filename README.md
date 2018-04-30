@@ -15,3 +15,13 @@ This simple tool pushes your netatmo measurements into an InfluxDB instance.
 ## What the script does
 
 The scripts loads all available stations from the netatmo API. All available sensor values are written to InfluxDB. Values are tagged with "station" or "module" as tag key and the mac address of the station or module as tag value.
+
+## Run the script
+
+Run the script like `python3 netatmoToInfluxDB.py`. 
+
+You can add the script to your crontab to run it every 5 minutes or so:
+
+`*/5 * * * * /path/to/netatmoToInfluxDB.py >/dev/null 2>&1`
+
+You have to make the script executable first: `chmod +x netatmoToInfluxDB.py`
